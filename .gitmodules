@@ -1,0 +1,3 @@
+[submodule "GitTestLib01"]
+	path = GitTestLib01
+	url = https://github.com/manuferro/GitTestLib01
