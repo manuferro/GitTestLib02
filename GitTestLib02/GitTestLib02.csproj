@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <UserSecretsId>670646a0-3509-42b1-8ca1-1f27ec81d166</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="submodule\" />
+    <ProjectReference Include="..\GitTestLib01\WpfCustomControlLibrary1\TestLib01.csproj" />
   </ItemGroup>
 
 </Project>

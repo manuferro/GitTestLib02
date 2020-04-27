@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitTestLib02", "GitTestLib02\GitTestLib02.csproj", "{7C09E304-F552-4049-87DD-12EE18B16807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitTestLib02", "GitTestLib02\GitTestLib02.csproj", "{7C09E304-F552-4049-87DD-12EE18B16807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{99304235-E5BB-4833-B524-B323E455577E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLib01", "GitTestLib01\WpfCustomControlLibrary1\TestLib01.csproj", "{7F237746-2434-471C-B9FE-9880CD39DCD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +19,18 @@ Global
 		{7C09E304-F552-4049-87DD-12EE18B16807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C09E304-F552-4049-87DD-12EE18B16807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C09E304-F552-4049-87DD-12EE18B16807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F237746-2434-471C-B9FE-9880CD39DCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F237746-2434-471C-B9FE-9880CD39DCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F237746-2434-471C-B9FE-9880CD39DCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F237746-2434-471C-B9FE-9880CD39DCD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F237746-2434-471C-B9FE-9880CD39DCD0} = {99304235-E5BB-4833-B524-B323E455577E}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8A450F36-DA92-4E22-B89B-DB1C68ED319D}
+		SolutionGuid = {97375851-B495-4C5C-AC9C-10B782741C9C}
 	EndGlobalSection
 EndGlobal
